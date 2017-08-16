@@ -1,0 +1,59 @@
+/*red #BD1C2B */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5;
+    font-family: Arial, sans-serif;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30em;
+}
+
+img {
+    display: inline-block;
+    float: left;
+    height: 2.6em;
+    margin-right: 1em;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    width: 8em;
+    height: 1.5em;
+    font-size: 1.5em;
+    padding-left: 0.25em;
+}
+
+#suggestions {
+    display: inline-block;
+    float: right;
+    width: 10em;
+    height: auto;
+    position: absolute;
+    margin-left: 1em;
+}
+
+.avatar {
+    height: 1.9em;
+    width: 1.9em;
+    position: absolute;
+    margin-left: 11em;
+    margin-top: -2em;
+}
+
+li {
+    list-style: none;
+    font-size: 1.3em;
+    padding: 0.2em;
+    background: white;
+    border-bottom: 1px solid #BD1C2B;
+}
